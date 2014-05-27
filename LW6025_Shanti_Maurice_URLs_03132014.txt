@@ -1,0 +1,1 @@
+ZDirect Reservation Id	ZDirect Guest Id	Title	Last Name	First Name	Arrival Date	Departure Date	E-mail	Phone No	Survey Link

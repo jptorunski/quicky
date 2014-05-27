@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><?Label 602836|PROFILE|4725875|SUCCESS?>
+<Profile xmlns="profile.fidelio.3.0" profileType="GUEST" gender="UNKNOWN" multiProperty="0" miniProfile="0" pseudoProfile="0" replaceAddress="0">
+   <creatorCode>LDRAKE@CWPI.LOCAL</creatorCode>
+   <createdDate>2014-03-14T12:43:01.000</createdDate>
+   <lastUpdaterCode>LDRAKE@CWPI.LOCAL</lastUpdaterCode>
+   <lastUpdated>2014-03-14T12:43:01.000</lastUpdated>
+   <genericName>Test</genericName>
+   <IndividualName>
+      <nameFirst>Opt-in</nameFirst>
+      <nameSur>Test</nameSur>
+   </IndividualName>
+   <primaryLanguageID>E</primaryLanguageID>
+   <PostalAddresses>
+      <PostalAddress addressType="HOME">
+         <countryCode>US</countryCode>
+         <mfPrimaryYN>Y</mfPrimaryYN>
+         <mfAddressLanguage>E</mfAddressLanguage>
+         <cleansed>0</cleansed>
+      </PostalAddress>
+   </PostalAddresses>
+   <SpecialRequests>
+      <SpecialRequest mfSpecialRequestType="SPE">
+         <requestCode>OPT-IN</requestCode>
+      </SpecialRequest>
+      <SpecialRequest mfSpecialRequestType="SPE">
+         <requestCode>OPT-OUT</requestCode>
+      </SpecialRequest>
+   </SpecialRequests>
+   <mfResort>602836</mfResort>
+   <mfResortProfileID>2900382</mfResortProfileID>
+   <mfAllowMail>NO</mfAllowMail>
+   <mfAllowEmail>NO</mfAllowEmail>
+   <mfGuestPriv>NO</mfGuestPriv>
+   <SalesExtention/>
+   <PrivacyOption>
+      <mfAllowMail>N</mfAllowMail>
+      <mfAllowEmail>N</mfAllowEmail>
+      <mfAllowPhone>0</mfAllowPhone>
+      <mfAllowSMS>0</mfAllowSMS>
+      <mfAllowHistory>1</mfAllowHistory>
+   </PrivacyOption>
+</Profile>

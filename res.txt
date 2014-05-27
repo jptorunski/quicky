@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OTA_HotelResModifyNotifRQ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="0"
+	xmlns="http://www.opentravel.org/OTA/2003/05">
+	<HotelResModifies>
+		<HotelResModify RoomStayReservation="true"
+			CreateDateTime="2011-08-09T15:51:40" LastModifyDateTime="2013-05-17T14:12:35"
+			ResStatus="RESERVED">
+			<UniqueID Type="14" ID_Context="Rental" ID="4824195" />
+			<RoomStays>
+				<RoomStay MarketCode="" SourceOfBusiness="">
+					<RoomTypes>
+						<RoomType RoomType="" RoomTypeCode="" RoomID="">
+							<Amenities>
+								<Amenity />
+							</Amenities>
+						</RoomType>
+					</RoomTypes>
+					<RatePlans>
+						<RatePlan RatePlanCode="OWNER" EffectiveDate="2013-01-01"
+							ExpireDate="2025-12-31" />
+					</RatePlans>
+					<RoomRates>
+						<RoomRate EffectiveDate="2013-01-01" ExpireDate="2025-12-31"
+							RoomTypeCode="" NumberOfUnits="1" RatePlanCode="OWNER">
+							<Rates>
+								<Rate EffectiveDate="2013-06-02" ExpireDate="2013-06-09"
+									UnitMultiplier="7">
+									<Base AmountBeforeTax="5.54" CurrencyCode="USD" />
+									<TotalAmountBeforeTax = CurrencyCode="USD" />
+								</Rate>
+							</Rates>
+						</RoomRate>
+					</RoomRates>
+					<GuestCounts>
+						<GuestCount AgeQualifyingCode="10" Count="0" />
+						<GuestCount AgeQualifyingCode="8" Count="0" />
+					</GuestCounts>
+					<TimeSpan Start="2013-06-02T12:00:00" End="2013-06-09T12:00:00" />
+					<Total AmountBeforeTax="38.78" CurrencyCode="">
+						<Taxes Amount="0" CurrencyCode="" />
+					</Total>
+					<BasicPropertyInfo HotelCode="R-KCR"
+						HotelName="Kona Coast Resort Kailua Kona">
+						<Address>
+							<AddressLine>78-6842 Alii Drive</AddressLine>
+							<AddressLine />
+							<CityName />
+							<PostalCode>96740</PostalCode>
+							<StateProv StateCode="HI" />
+							<CountryName>US</CountryName>
+						</Address>
+						<ContactNumbers>
+							<ContactNumber PhoneNumber="(808) 324-1721" />
+						</ContactNumbers>
+					</BasicPropertyInfo>
+				</RoomStay>
+			</RoomStays>
+			<ResGuests>
+				<ResGuest>
+					<Profiles>
+						<ProfileInfo>
+							<UniqueID Type="1" ID_Context="PersonID"
+								ID="51fb05ff-f9df-45f1-ae0b-aad17f8a0796" />
+							<Profile>
+								<Customer>
+									<PersonName>
+										<GivenName>Stacey/Christopher</GivenName>
+										<Surname>O'Rourke/Dinapoli</Surname>
+									</PersonName>
+									<Telephone PhoneNumber="" />
+									<Email>stacey116@optonline.net</Email>
+									<Address>
+										<AddressLine>1993 N Eagle Chase Rd.</AddressLine>
+										<CityName />
+										<PostalCode />
+										<StateProv StateCode="" />
+										<CountryName>US</CountryName>
+									</Address>
+								</Customer>
+							</Profile>
+						</ProfileInfo>
+					</Profiles>
+				</ResGuest>
+			</ResGuests>
+			<ResGlobalInfo>
+				<Comments>
+					<Comment Name="owner_primary_personid">
+						<Text>0</Text>
+					</Comment>
+					<Comment Name="owner_secondary_personid">
+						<Text>0</Text>
+					</Comment>
+					<Comment Name="guest_primary_personid">
+						<Text>0</Text>
+					</Comment>
+					<Comment Name="guest_secondary_personid">
+						<Text>0</Text>
+					</Comment>
+					<Comment Name="shell_unique_number">
+						<Text />
+					</Comment>
+					<Comment Name="member_id">
+						<Text />
+					</Comment>
+					<Comment Name="title">
+						<Text>Reservation Confirmation</Text>
+					</Comment>
+					<Comment Name="top_info">
+						<Text />
+					</Comment>
+					<Comment Name="ut_level_1">
+						<Text />
+					</Comment>
+					<Comment Name="ut_level_2">
+						<Text />
+					</Comment>
+					<Comment Name="ut_level_3">
+						<Text />
+					</Comment>
+					<Comment Name="ut_level_4">
+						<Text />
+					</Comment>
+					<Comment Name="representative">
+						<Text>Shell Vacations Hospitality</Text>
+					</Comment>
+					<Comment Name="svc_phone">
+						<Text />
+					</Comment>
+					<Comment Name="select_connections_flag">
+						<Text>False</Text>
+					</Comment>
+					<Comment Name="res_info">
+						<Text />
+					</Comment>
+					<Comment Name="directions">
+						<Text />
+					</Comment>
+					<Comment Name="accommodations">
+						<Text />
+					</Comment>
+					<Comment Name="resort_amenities">
+						<Text />
+					</Comment>
+					<Comment Name="attractions">
+						<Text />
+					</Comment>
+					<Comment Name="res_info2">
+						<Text />
+					</Comment>
+					<Comment Name="web_address">
+						<Text />
+					</Comment>
+					<Comment Name="late_check_in_text">
+						<Text>Late check-in: Please notify the property in advance if you
+							anticipate a late arrival.</Text>
+					</Comment>
+					<Comment Name="unit_assignment_text">
+						<Text />
+					</Comment>
+					<Comment Name="elite_flag">
+						<Text>False</Text>
+					</Comment>
+					<Comment Name="additional_info">
+						<Text />
+					</Comment>
+					<Comment Name="max_occupancy">
+						<Text />
+					</Comment>
+				</Comments>
+				<SpecialRequests>
+					<SpecialRequest>
+						<Text>Wednesday Cleaning&amp;lt;br /&amp;gt;&amp;#x0D;</Text>
+					</SpecialRequest>
+				</SpecialRequests>
+				<DepositPayments>
+					<GuaranteePayment>
+						<AmountPercent Amount="0" CurrencyCode="" />
+					</GuaranteePayment>
+				</DepositPayments>
+				<CancelPenalties>
+					<CancelPenalty>
+						<PenaltyDescription>
+							<Text />
+						</PenaltyDescription>
+					</CancelPenalty>
+				</CancelPenalties>
+				<HotelReservationIDs>
+					<HotelReservationID ResID_Value="4824195"
+						ResID_SourceContext="PMS" />
+				</HotelReservationIDs>
+				<Profiles>
+					<ProfileInfo>
+						<UniqueID Type="18" ID_Context="PersonID"
+							ID="a6d1d043-6198-4786-87c0-65ad56c5d59f" />
+						<Profile>
+							<Customer>
+								<PersonName>
+									<GivenName />
+									<Surname />
+								</PersonName>
+								<Telephone PhoneNumber="" />
+								<Email />
+								<Address>
+									<AddressLine />
+									<CityName />
+									<PostalCode />
+									<StateProv StateCode="" />
+									<CountryName />
+								</Address>
+							</Customer>
+						</Profile>
+					</ProfileInfo>
+					<ProfileInfo>
+						<UniqueID Type="18" ID_Context="PersonID"
+							ID="e8cbe7d6-8bab-434f-b241-fc53947d30ee" />
+						<Profile>
+							<Customer>
+								<PersonName>
+									<GivenName />
+									<Surname />
+								</PersonName>
+								<Telephone PhoneNumber="" />
+								<Email />
+								<Address>
+									<AddressLine />
+									<CityName />
+									<PostalCode />
+									<StateProv StateCode="" />
+									<CountryName />
+								</Address>
+							</Customer>
+						</Profile>
+					</ProfileInfo>
+				</Profiles>
+			</ResGlobalInfo>
+		</HotelResModify>
+	</HotelResModifies>
+</OTA_HotelResModifyNotifRQ>
